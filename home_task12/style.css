@@ -1,0 +1,911 @@
+.header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #222222;
+    height: 75px;
+}
+
+.menu_left {
+
+    margin-left: 231px;
+    gap: 41px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.menu_right {
+    margin-right: 240px;
+
+    gap: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banner {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background-color: #F1E4E6;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan img {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 16px;
+    width: 12px;
+    height: 92px;
+}
+
+
+.banner img {
+    display: flex;
+}
+
+h1 {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 48px;
+}
+
+h2 {
+
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 32px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 65px;
+}
+
+.section_for_women {
+    position: relative;
+
+}
+
+
+
+
+.slogan_for_woman {
+    position: absolute;
+    width: 154px;
+    height: 50px;
+    top: 105px;
+    left: 103px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    text-align: center;
+}
+
+.slogan_for_woman h4 {
+    color: #F16D7F;
+    margin: 0;
+    font-size: 22px;
+}
+
+.slogan_for_woman h5 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.section_for_men {
+    position: relative;
+}
+
+.slogan_for_man {
+    position: absolute;
+    width: 154px;
+    height: 50px;
+    top: 105px;
+    left: 103px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    text-align: center;
+}
+
+.slogan_for_man h4 {
+    color: #F16D7F;
+    margin: 0;
+    font-size: 22px;
+}
+
+.slogan_for_man h5 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.section_for_kids {
+    position: relative;
+}
+
+.slogan_for_kids {
+    position: absolute;
+    width: 154px;
+    height: 50px;
+    top: 105px;
+    left: 103px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    text-align: center;
+}
+
+.slogan_for_kids h4 {
+    color: #F16D7F;
+    margin: 0;
+    font-size: 22px;
+}
+
+.slogan_for_kids h5 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.section_accesories {
+    position: relative;
+}
+
+.slogan_accesories {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 65px;
+    left: 480px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    text-align: center;
+}
+
+.slogan_accesories h4 {
+    color: #F16D7F;
+    margin: 0;
+    font-size: 22px;
+}
+
+.slogan_accesories h5 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.subtitle h3 {
+    margin: 0;
+    font-size: 30px;
+
+
+}
+
+.subtitle_span {
+    margin: 0;
+    font-size: 14px;
+}
+
+.product_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 30px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+.cardbg {
+    position: relative;
+    width: 360px;
+    height: 420px;
+    background-color: #F7E4E2;
+}
+
+.cardbg img {
+    position: absolute;
+    top: 9px;
+    left: 108px;
+
+
+
+
+
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.card5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.card6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.desc {
+    width: 360px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+    background-color: #F8F8F8;
+}
+
+
+
+h6 {
+    font-size: 13px;
+    margin-left: 16px;
+    padding-right: 28px;
+    padding-top: 25px;
+}
+
+span {
+    margin-left: 16px;
+    padding-right: 28px;
+
+}
+
+p {
+    margin-left: 16px;
+    padding-right: 28px;
+    font-size: 16px;
+    color: #F16D7F;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Версия для планшета 1024 */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .header {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        background-color: #222222;
+        height: 75px;
+    }
+
+    .menu_left {
+
+
+        gap: 41px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 32px;
+
+    }
+
+    .menu_right {
+
+
+        gap: 33px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 32px;
+
+    }
+
+    .banner {
+
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        background-color: #F1E4E6;
+    }
+
+    .slogan img {
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 16px;
+        width: 12px;
+    height: 92px;
+    }
+
+
+    .banner img {
+        display: flex;
+        width: 386px;
+        height: 368px;
+    }
+
+    h1 {
+
+        margin-top: 0;
+
+        margin-bottom: 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        align-content: center;
+
+        justify-content: flex-start;
+
+        align-items: center;
+
+        font-size: 48px;
+    }
+
+    h2 {
+
+        margin-top: 10px;
+
+        margin-bottom: 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        justify-content: flex-end;
+
+        align-items: flex-start;
+
+        font-size: 32px;
+
+        align-content: flex-start;
+    }
+
+    .cards {
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+        gap: 16px;
+        margin-top: 65px;
+
+        justify-content: center;
+    }
+
+    .section_for_women {
+        position: relative;
+
+    }
+
+    .section_for_women img {
+        width: 232px;
+        height: 169px;
+    }
+
+
+    .slogan_for_woman {
+        position: absolute;
+        width: 154px;
+        height: 50px;
+        top: 45px;
+        left: 39px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 5px; */
+        text-align: center;
+    }
+
+    .slogan_for_woman h4 {
+        color: #F16D7F;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .slogan_for_woman h5 {
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .section_for_men {
+        position: relative;
+    }
+
+    .section_for_men img {
+        width: 232px;
+        height: 169px;
+    }
+
+    .slogan_for_man {
+        position: absolute;
+        width: 154px;
+        height: 50px;
+        top: 45px;
+        left: 39px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 5px; */
+        text-align: center;
+    }
+
+    .slogan_for_man h4 {
+        color: #F16D7F;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .slogan_for_man h5 {
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .section_for_kids img {
+        width: 232px;
+        height: 169px;
+    }
+
+    .section_for_kids {
+        position: relative;
+    }
+
+    .slogan_for_kids {
+        position: absolute;
+        width: 154px;
+        height: 50px;
+        top: 45px;
+        left: 39px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 5px; */
+        text-align: center;
+    }
+
+    .slogan_for_kids h4 {
+        color: #F16D7F;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .slogan_for_kids h5 {
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .section_accesories {
+        position: relative;
+    }
+
+    .section_accesories img {
+        width: 735px;
+        height: 116px;
+    }
+
+    .slogan_accesories {
+        position: absolute;
+        width: 180px;
+        height: 50px;
+        top: 30px;
+        left: 288px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 5px; */
+        text-align: center;
+    }
+
+    .slogan_accesories h4 {
+        color: #F16D7F;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .slogan_accesories h5 {
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .subtitle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 96px;
+        max-width: 1024px;
+        /* min-width: 768px; */
+    }
+
+    .subtitle h3 {
+        margin: 0;
+        font-size: 30px;
+
+
+    }
+
+    .subtitle_span {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .product_cards {
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: stretch;
+        margin-top: 54px;
+        margin-bottom: 18px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        height: px;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        width: 360px;
+        justify-content: center;
+    }
+
+    .cardbg {
+        position: relative;
+        width: 360px;
+        height: 420px;
+        background-color: #F7E4E2;
+    }
+
+    .cardbg img {
+        position: absolute;
+        top: 9px;
+        left: 108px;
+
+
+
+
+
+    }
+
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+
+
+
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+
+
+
+
+    }
+
+    .card5 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+
+
+
+    }
+
+    .card6 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+
+
+
+    }
+
+    .desc {
+        width: 360px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 16px;
+
+        margin-right: 16px;
+        margin-left: 16px;
+        background-color: #F8F8F8;
+    }
+
+
+
+    h6 {
+        font-size: 13px;
+        margin-left: 16px;
+        padding-right: 28px;
+        padding-top: 25px;
+    }
+
+    span {
+        margin-left: 16px;
+        padding-right: 28px;
+
+    }
+
+    p {
+        margin-left: 16px;
+        padding-right: 28px;
+        font-size: 16px;
+        color: #F16D7F;
+    }
+
+    .header {
+        max-width: 1024px;
+        min-width: 768px;
+        min-height: 75px;
+
+    }
+
+    .menu_left {
+        padding-left: 32px;
+    }
+
+    .menu_right {
+        padding-right: 32px;
+    }
+
+    .banner {
+        max-width: 1024px;
+        min-width: 768px;
+        display: flex;
+    }
+
+    .slogan {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .slogan img {
+        display: flex;
+        margin-right: 16px;
+        width: 12px;
+        height: 92px;
+    }
+
+    .slogan_text {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+
+        color: #F26376;
+
+        border: 1px solid #F26376;
+
+        width: 212px;
+
+        height: 48px;
+    }
+
+    .button1 {
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+    }
+
+}
