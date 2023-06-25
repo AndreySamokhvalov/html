@@ -45,7 +45,7 @@
     background-color: #F1E4E6;
 }
 
-.slogan{
+.slogan {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -206,6 +206,8 @@ h2 {
 
 .section_accesories {
     position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 .slogan_accesories {
@@ -246,10 +248,8 @@ h2 {
 }
 
 .subtitle h3 {
-    margin: 0;
+    /* margin: 0; */
     font-size: 30px;
-
-
 }
 
 .subtitle_span {
@@ -378,9 +378,8 @@ h6 {
 }
 
 span {
-    margin-left: 16px;
-    padding-right: 28px;
-
+    /* margin-left: 16px; */
+    /* padding-right: 28px; */
 }
 
 p {
@@ -390,12 +389,116 @@ p {
     color: #F16D7F;
 }
 
+button {
+
+    color: #F26376;
+
+    border: 1px solid #F26376;
+
+    width: 212px;
+
+    height: 48px;
+}
+
+.button1 {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}
 
 
 
 
 
 
+
+
+
+/* подвал */
+
+/* 
+.item1{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.desc_item {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 74px;
+    color: #FBFBFB;
+}
+
+h7 {
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+
+
+.item2{
+      display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item3{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 103px;
+    margin-bottom: 104px;
+    gap: 30px;
+    background-color: #222224;
+    max-width: 1600px;
+    height: 341px;
+}
+
+
+.item1 img{
+margin-bottom: 28px;
+}
+
+.item2 img{
+margin-bottom: 28px;
+}
+
+.item3 img{
+margin-bottom: 28px;
+} */
 
 
 
@@ -460,7 +563,7 @@ p {
         flex-wrap: wrap;
         margin-right: 16px;
         width: 12px;
-    height: 92px;
+        height: 92px;
     }
 
 
@@ -652,11 +755,12 @@ p {
         left: 288px;
         display: flex;
         flex-direction: column-reverse;
-        flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         /* gap: 5px; */
         text-align: center;
+        align-content: stretch;
+        flex-wrap: nowrap;
     }
 
     .slogan_accesories h4 {
@@ -906,6 +1010,143 @@ p {
         flex-wrap: wrap;
         justify-content: center;
         align-content: stretch;
+    }
+
+}
+
+/* версия для мобилки */
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+        background-color: #222222;
+        height: 74px;
+        /* width: 320px; */
+    }
+
+    .menu_left {
+
+        margin-left: 16px;
+
+    }
+
+
+    .menu_right {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+
+    }
+
+
+    .person img {
+        display: none;
+
+    }
+
+    .basket img {
+        display: none;
+
+    }
+
+
+
+    .banner img {
+        display: none;
+        overflow: hidden;
+    }
+
+    .banner {
+
+        display: flex;
+
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        align-content: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        height: 363px;
+    }
+
+    h1 {
+        font-size: 38px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+
+    }
+
+    .section_accesories {
+        position: relative;
+        /* width: 344px; */
+        /* height: 111px; */
+    }
+
+    .slogan_accesories {
+        position: absolute;
+        width: 175px;
+        height: 50px;
+        top: 20px;
+        left: 92px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 5px; */
+        text-align: center;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+
+    .card_imgbox4 img {
+        display: flex;
+        height: 111px;
+        width: 344px;
+    }
+
+    .subtitle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+        text-align: center;
+        /* margin-top: 4px; */
+    }
+
+    .card_imgbox1 img {
+        width: 344px;
+        height: 248px;
+    }
+
+    .card_imgbox2 img {
+        width: 344px;
+        height: 248px;
+    }
+
+    .card_imgbox3 img {
+        width: 344px;
+        height: 248px;
     }
 
 }
