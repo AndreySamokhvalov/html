@@ -47,6 +47,7 @@ a {
 
 
     &__left {
+        margin-left: 32px;
         display: flex;
         gap: 40px;
         margin-right: 20px;
@@ -58,6 +59,7 @@ a {
     }
 
     &__right {
+        margin-right: 32px;
         display: flex;
         align-items: center;
         gap: 40px;
@@ -185,6 +187,7 @@ a {
 
 
     &__heading {
+        margin-left: 16px;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -193,6 +196,7 @@ a {
     }
 
     .breadcrumbs {
+        margin-right: 16px;
 
         &__ul {
             list-style-type: none;
@@ -392,6 +396,14 @@ a {
     line-height: normal;
     color: #6F6E6E;
     margin-right: 22px;
+}
+
+.sorting__style {
+    color: #6F6E6E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .sorting {
@@ -689,7 +701,7 @@ button {
     .header__right {
         display: flex;
         margin-right: 32px;
-        flex-direction: row-reverse;
+        // flex-direction: row-reverse;
 
         &::after {
             display: none;
@@ -697,13 +709,13 @@ button {
     }
 
 
-    .lk {
-        display: none;
-    }
+    // .lk {
+    //     display: none;
+    // }
 
-    .basket {
-        display: none;
-    }
+    // .basket {
+    //     display: none;
+    // }
 
 
 
@@ -817,8 +829,23 @@ button {
         margin-right: 8px;
     }
 
+    .description {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 143.1%;
+        text-align: center;
+    }
+
     .product__box {
         flex-direction: column;
+    }
+
+    .product__description__text {
+        width: 326px;
+        height: 105px;
     }
 
     .form {
@@ -848,7 +875,7 @@ button {
 
     .sorting__style {
         color: #6F6E6E;
-        font-size: 14px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

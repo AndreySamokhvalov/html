@@ -189,7 +189,7 @@ a {
 .main__content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
   justify-content: space-around;
 }
@@ -244,6 +244,7 @@ a {
 }
 
 .form__offer {
+  padding-left: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -254,11 +255,17 @@ a {
 }
 
 .gender {
+  color: #000;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
   margin-right: 20px;
   cursor: pointer;
 }
 
 .discount__offer {
+  padding-right: 16px;
   display: flex;
   flex-direction: column;
   width: 652px;
@@ -274,7 +281,6 @@ a {
   line-height: normal;
 }
 .discount__offer_text {
-  width: 652px;
   height: 58px;
   color: #000;
   font-size: 24px;
@@ -293,6 +299,8 @@ a {
 }
 .discount__offer__ul_li {
   padding-top: 16px;
+  display: flex;
+  flex-direction: row;
 }
 .discount__offer__ul_icon {
   margin-right: 23px;
@@ -302,6 +310,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  margin-left: 21px;
 }
 .btn__main__content {
   width: 167px;
@@ -475,26 +484,8 @@ a {
     display: flex;
     justify-content: space-between;
   }
-  .header__left {
-    margin-left: 16px;
-  }
-  .header__right {
-    margin-right: 16px;
-  }
   .top-head {
     justify-content: space-around;
-  }
-  .header__right {
-    flex-direction: row-reverse;
-  }
-  .header__right .burger__icon {
-    flex-direction: row-reverse;
-  }
-  .header__right .lk {
-    display: none;
-  }
-  .header__right .basket {
-    display: none;
   }
   .header__right::after {
     display: none;
@@ -506,9 +497,6 @@ a {
     margin-bottom: 64px;
   }
   .form__registration__content {
-    width: 360px;
-  }
-  .form__registration__content_name {
     width: 360px;
   }
   .form__bottom {
